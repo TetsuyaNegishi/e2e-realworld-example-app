@@ -1,8 +1,10 @@
 {
   "dependencies": {
-    "cypress": "^4.0.1"
+    "cypress": "^4.0.1",
+    "mysql": "^2.18.1"
   },
   "scripts": {
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "setup": "node setup/index.js"
   }
 }
